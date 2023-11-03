@@ -1,0 +1,65 @@
+
+nav a img{
+    width: 100px;
+}
+
+nav ul img{
+    width: 40px;
+}
+
+body{
+    background-color: #282828;
+}
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-right: 20px;
+    margin-block: 20px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown button{
+    background-color: black;
+    color: white;
+}
+
+i, svg{
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-item{
+    width: 16%;
+}
+
+.footer-button{
+    background-color: #282828;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-color: #6c757d;
+}
+
+.icons-footer{
+    margin-inline: 10px;
+}
+
+p{
+    color: #6c757d;
+    font-size: 10px;
+}
+
+#copyright{
+    color: #6c757d;
+}
+
