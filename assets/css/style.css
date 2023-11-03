@@ -47,6 +47,15 @@ h3{
     color: white;
 }
 
+.linkSeries{
+    text-decoration: none;
+    color: white;
+}
+
+.linkSeries:hover{
+    color: red;
+}
+
 i, svg{
     color: white;
     cursor: pointer;
@@ -65,6 +74,14 @@ i, svg{
 
 .icons-footer{
     margin-inline: 10px;
+}
+
+.carousel-control-next{
+    width: 10%;
+}
+
+.carousel-control-prev{
+    width: 3%;
 }
 
 p{
