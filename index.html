@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
-      <div class="container-fluid d-flex justify-content-start">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-lg d-inline d-md-inline d-lg-flex justify-content-start">
         <a href="./index.html" class="navbar-brand"
           ><img src="./assets/netflix_logo.png" class="img-fluid" alt="Netflix Logo"
         /></a>
@@ -39,7 +39,9 @@
           </ul>
         </div>
       </div>
-      <div class="container-fluid d-flex justify-content-end">
+      <div
+        class="container d-inline d-sm-flex position-sm-absolute d-md-flex position-md-absolute d-lg-flex justify-content-end"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -53,7 +55,7 @@
           />
         </svg>
         <div id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <ul class="navbar-nav d-none d-md-none d-lg-flex me-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item mx-3">
               <img src="./assets/kids_icon.png" alt="Kids Icon" />
             </li>
@@ -121,10 +123,10 @@
       </div>
     </div>
     <div class="container-fluid mt-4">
-      <div class="row mx-5"><h3>Trending Now</h3></div>
+      <div class="row mx-1 mx-lg-5"><h3>Trending Now</h3></div>
       <div class="row mx-auto">
         <div id="carouselExampleFade1" class="carousel slide carousel-fade">
-          <div class="carousel-inner px-5">
+          <div class="carousel-inner px-0 px-lg-5">
             <div class="carousel-item active d-flex">
               <img src="./assets/media/media0.webp" class="d-block w-100" alt="..." />
               <img src="./assets/media/media1.jpg" class="d-block w-100" alt="..." />
@@ -162,10 +164,10 @@
       </div>
     </div>
     <div class="container-fluid mt-4">
-      <div class="row mx-5"><h3>Watch It Again</h3></div>
+      <div class="row mx-1 mx-lg-5"><h3>Watch It Again</h3></div>
       <div class="row mx-auto">
         <div id="carouselExampleFade2" class="carousel slide carousel-fade">
-          <div class="carousel-inner px-5">
+          <div class="carousel-inner px-0 px-lg-5">
             <div class="carousel-item active d-flex">
               <img src="./assets/media/media10.jpg" class="d-block w-100" alt="..." />
               <img src="./assets/media/media11.jpg" class="d-block w-100" alt="..." />
@@ -203,10 +205,10 @@
       </div>
     </div>
     <div class="container-fluid mt-4">
-      <div class="row mx-5"><h3>New Releases</h3></div>
+      <div class="row mx-1 mx-lg-5"><h3>New Releases</h3></div>
       <div class="row mx-auto">
         <div id="carouselExampleFade3" class="carousel slide carousel-fade">
-          <div class="carousel-inner px-5">
+          <div class="carousel-inner px-0 px-lg-5">
             <div class="carousel-item active d-flex">
               <img src="./assets/media/media20.jpg" class="d-block w-100" alt="..." />
               <img src="./assets/media/media21.webp" class="d-block w-100" alt="..." />
@@ -258,7 +260,7 @@
         </div>
       </div>
       <footer>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+        <div class="row row-cols-2 row-cols-sm-4 row-cols-md-5">
           <div class="col mb-3">
             <h5>Section</h5>
             <ul class="nav flex-column">
