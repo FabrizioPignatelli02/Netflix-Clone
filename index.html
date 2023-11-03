@@ -72,7 +72,22 @@
               </svg>
             </li>
             <li class="nav-item mx-3">
-              <img src="./assets/avatar.png" alt="Avatar Icon" />
+              <div class="col dropdown">
+                <button
+                  id="avatarButton"
+                  class="btn dropdown-toggle rounded-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="./assets/avatar.png" alt="Avatar Logo" />
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Account</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li id="logout"><a class="dropdown-item" href="#">Log Out</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -84,6 +99,7 @@
           <h2>TV Shows</h2>
           <div class="col dropdown">
             <button
+              id="genresButton"
               class="btn dropdown-toggle border border-light rounded-0"
               type="button"
               data-bs-toggle="dropdown"
@@ -108,7 +124,7 @@
       <div class="row"><h3>Trending Now</h3></div>
       <div class="row">
         <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div class="carousel-inner">
+          <div class="carousel-inner mx-auto">
             <div class="carousel-item active d-flex">
               <img src="./assets/media/media0.webp" class="d-block w-100" alt="..." />
               <img src="./assets/media/media1.jpg" class="d-block w-100" alt="..." />
