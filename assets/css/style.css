@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
 
 nav a img{
     width: 100px;
@@ -29,8 +33,17 @@ h3{
     font-size: 20px;
 }
 
-.dropdown button{
+#logout a{
+    background-color: red;
+    color: white;
+}
+
+#genresButton{
     background-color: black;
+    color: white;
+}
+
+#avatarButton{
     color: white;
 }
 
