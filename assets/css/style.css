@@ -43,6 +43,13 @@ h3{
     color: white;
 }
 
+#languageButton{
+    background-color: black;
+    color: white;
+    width: 120px;
+    text-align: left;
+}
+
 #avatarButton{
     color: white;
 }
@@ -91,5 +98,29 @@ p{
 
 #copyright{
     color: #6c757d;
+}
+
+main{
+    width: 40%;
+    margin-inline: auto;
+}
+
+main h1{
+    color: white;
+}
+
+#showTitles{
+    font-size: 15px;
+}
+
+label{
+    font-size: 14px;
+}
+
+.save-button{
+    background-color: white;
+    color: #282828;
+    border: 0;
+    font-weight: bold;
 }
 
